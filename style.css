@@ -1,0 +1,107 @@
+html{
+  height: 100%;
+}
+
+
+body { 
+  background-color: #2f3035;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("IMG/jakob-owens-JzJSybPFb3s-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.container {
+  margin-left: auto;  
+  margin-right: auto;
+  width: 1024px;
+}
+
+header {
+  height: 200px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding-left: 240px;
+  padding-right: 240px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  padding-bottom: 10px;
+
+}
+
+main {
+  height: 400px;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 240px;
+  padding-right: 240px;
+  font-family: Arial;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.85);
+  font-family: Arial;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  padding-top: 50px; 
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 84px;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 12px; 
+  padding-right: 12px;
+}
+
+footer p {
+
+  font-size: 12px;
+  text-align: center;
+  color: rgb(211, 209, 209);
+}
+
+.map {
+  padding-bottom: 100px;
+ /** padding-left: 170px; **/
+  text-align: center;
+}
+
+.video {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-overflow: clip;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
